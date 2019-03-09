@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      My First Post
-subtitle:   Hello Blog
+title:      Markdown Syntax
+subtitle:   Markdown beginning
 date:       2018-12-21
 header-img: img/post-bg-desk.jpg
 catalog: true
@@ -9,9 +9,17 @@ tags:
     - Markdown
 ---
 
-## Hey
->这是我的第一篇博客。
-记录MarkDown的语法
+### MarkDown的语法
+
+字体：加粗、斜体<br/>
+块：block<br/>
+标题 1 级：文字底部添加等号<br/>
+标题 2 级：文字底部添加减号<br/>
+标题 1~6 级：# ~ ######<br/>
+代码块：以 \`\`\` 开始，并以 \`\`\` 结束<br/>
+超链接：链接地址，图片，Gif，点击图片跳转url <br/>
+显示gif
+注释：[//]:(this is comment)
 
 #### [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
 ```markdown
@@ -50,6 +58,14 @@ List
 [title](Url)    // click title to view 'Url'
 ![](ImageUrl)   // show image: url is 'Url'
 [![title](assest path)](Url)       // click image to view 'Url'
+
+// gif
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
+// table
+| column1 | column2 | column3 | column4 |
+| ------- |:------- |:-------:|--------:|
+|  默认  |左对齐    |   居中   |    右对齐|
 ```
 
 #### Markdown 注释
@@ -68,8 +84,9 @@ List
 
 **Update**<br/>
 1. 修改了博客里的截图，添加了原作者的博客入口
-2. 新建了仓库[ImageHolder](https://github.com/tanliner/ImageHolder)用来保存博客中需要的图片，尤其是ReadMe文档引用
-
+2. 新建了仓库 [ImageHolder](https://github.com/tanliner/ImageHolder) 用来保存博客中需要的图片，尤其是ReadMe文档引用
+3. MD 显示Gif [How to show gif in Markdown](https://stackoverflow.com/questions/34341808/is-there-a-way-to-add-a-gif-to-a-markdown-file)
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 感谢 BY 的模板，[BY](https://github.com/qiubaiying/qiubaiying.github.io)
 
