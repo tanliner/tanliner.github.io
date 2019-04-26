@@ -1,0 +1,33 @@
+.search-container {
+  list-style-position: outside;
+}
+
+.search-input {
+  border: 1px solid;
+  outline: none;
+  box-shadow: none;
+  margin-top: 12px;
+  border-radius: 12px;
+  text-align: center;
+  text-align: -moz-center;
+  text-align: -webkit-center;
+  width: 200px;
+  color: purple;
+}
+
+.search-input::placeholder {
+  color: purple;
+}
+
+.search-result-container {
+  max-width: 200px;
+  background-color: rgba(127, 207, 226, 0.1);
+  text-align: left;
+  list-style-type: circle;
+}
+
+.search-result-list-item {
+  text-align: center;
+  color: rgba(12, 13, 14, 0.99);
+  padding: 0
+}

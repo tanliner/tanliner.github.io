@@ -19,17 +19,21 @@
 
 
 ##### 优雅点的本地环境
-alias jkybuild='jkybuild'
-alias jkybuildw='jkybuild --watch'
-alias jkyStart='server --detach'
-alias jkykill='pkill -f jekyll'
+alias jkybuild='jkybuild'<br/>
+alias jkybuildw='jkybuild --watch'<br/>
+alias jkyStart='server --detach'<br/>
+alias jkykill='pkill -f jekyll'<br/>
 
 ```bash
 $ jkyStart &
 $ jkybuildw
+// chrome s输入
 web> http://localhost:4000
 ```
 
+### 如何查找你的 blog
+已集成[Blog 搜索](https://github.com/christian-fei/Simple-Jekyll-Search)，提供了搜索和呈现方式
+大致原理，通过js执行post目录的查询，然后遍历模板并完成替换
 
 
 ## 致谢
