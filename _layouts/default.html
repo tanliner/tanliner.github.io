@@ -16,6 +16,7 @@
 <!-- Image to hack wechat -->
 <img src="/img/apple-touch-icon.png" width="0" height="0" />
 <!-- Migrate from head to bottom, no longer block render and still work -->
+</body>
 
 <!-- For blog search, @see https://github.com/christian-fei/Simple-Jekyll-Search -->
 <script src="{{ site.baseurl }}/js/simple-jekyll-search.min.js"></script>
@@ -24,13 +25,12 @@
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '{{ site.baseurl }}/search.json',
-        searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}" style="">{title}</a></li>',
+        searchResultTemplate: '<li><a href="{url}" title="{title}" style="">{title}</a></li>',
         noResultsText: 'No results found',
         limit: 12,
         fuzzy: true,
         exclude: ['Welcome']
     })
 </script>
-</body>
 
 </html>
