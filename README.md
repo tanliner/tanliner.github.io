@@ -11,6 +11,9 @@
 >
 ### [查看博客戳这里](http://tanliner.github.io)
 
+### 如何构建你的Jkeyll博客
+[BY-Blog](https://github.com/qiubaiying/qiubaiying.github.io)
+
 ### 本地环境
 > server start: jekyll server [--detach]
 > hot dev: jekyll build [--watch]
