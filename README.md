@@ -20,6 +20,19 @@
 > http://localhost:4000
 > server stop: pkill -f jekyll
 
+### jekyll 4.0
+升级MacOS 10.15 catalina 后，jekyll server 无法运行
+```
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby: no such file or directory
+```
+原来，ruby已经升级到2.6.3了，不知为啥ruby-framework指向的还是2.3的路径
+尝试了各种办法，rvm 装最新的ruby 2.6.5 版本，仍然不行，然后通过jekyll的官网步骤仍然不行
+
+最后通过[shaoguoji的回答](https://github.com/Huxpro/huxpro.github.io/issues/62)
+```
+gem uninstall --all
+gem install github-pages
+```
 
 ##### 优雅点的本地环境
 alias jkybuild='jkybuild'<br/>
