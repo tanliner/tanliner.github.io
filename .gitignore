@@ -34,6 +34,7 @@ Temporary Items
 # debug file
 _site
 package-lock.json
+.jekyll-cache/
 
 # Intellij jetbrains
 .idea
