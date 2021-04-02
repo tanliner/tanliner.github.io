@@ -36,3 +36,10 @@ vpn 已经启用，google访问正常，github头天还很正常，突然就无�
 151.101.108.133 avatars8.githubusercontent.com 
 # GitHub End
 ```
+
+# 随时查看是不是 IP 有更新
+[ip-address](https://ipaddress.com)
+
+输入 github.com 查看ip，然后再替换host就好了
+
+# 最后吐槽一下，Github 的IP为啥老是换来换去的...
